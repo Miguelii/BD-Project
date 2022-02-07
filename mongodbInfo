@@ -1,0 +1,29 @@
+Ligar server:
+
+brew services start mongodb-community@5.0
+
+brew services stop mongodb-community@5.0
+
+
+
+Conectar ao server:
+
+mongodb://localhost[:27017]
+
+
+
+Comandos:
+
+mongosh <- linha de comandos
+
+Show dbs <- mostrar as database
+
+use [nome] <- usar uma datasse
+
+db <- ver qual database estou a usar
+
+show collections <- mostrar collections dentro da database
+
+db.[nome da collection].find() <- ver info de uma conllection
+
+
